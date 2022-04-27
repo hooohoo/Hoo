@@ -22,6 +22,7 @@ import com.lec.sts_mybatis.board.command.BWriteCommand;
 public class BoardController {
 	
 	private BCommand command;
+	
 	private SqlSession sqlSession;
 	
 	@Autowired
